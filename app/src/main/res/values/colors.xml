@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#005961</color>
+    <color name="primary_light">#00717C</color>
+    <color name="primary_lighter">#008D9A</color>
+    <color name="primary_dark">#003F45</color>
+    <color name="primary_darker">#001E21</color>
+
+    <!--<color name="primary">#4383B0</color>
+    <color name="primary_light">#91C3E6</color>
+    <color name="primary_lighter">#bedff6</color>
+    <color name="primary_dark">#286B9A</color>
+    <color name="primary_darker">#286B9A</color>-->
+
+    <color name="primarysupport">#00D137</color>
+    <color name="primaryaccent">#002AC5</color>
+
+    <color name="accent">#C94277</color>
+    <color name="accent_ripple">#40222222</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white_background">#EFEFEF</color>
+    <color name="blue_background">#bedff6</color>
+
+
+    <color name="grey_dark">#444444</color>
+    <color name="grey_light">#878787</color>
+    <color name="transparentGrey">#99000000</color>
+    <color name="black_transparent">#80000000</color>
+    <color name="background_fade">#40000000</color>
+    <color name="softGrey">#DDDDDDDD</color>
+
+    <color name="acceptGreen">#009900</color>
+    <color name="scannedGreen">#7700AA00</color>
+    <color name="lightGreen">#7772ff71</color>
+
+    <color name="softAccent">#330099BA</color>
+    <color name="softBackground">#220099BA</color>
+    <color name="alertRed">#CC2020</color>
+    <color name="complement">#FF7F00</color>
+    <color name="pieChartBlue">#87BCDE</color>
+    <color name="pieChartGreen">#72BDA3</color>
+    <color name="pieChartYellow">#FFF275</color>
+</resources>

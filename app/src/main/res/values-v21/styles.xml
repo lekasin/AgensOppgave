@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:colorPrimary">@color/primary</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="android:colorAccent">@color/accent</item>
+
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:colorButtonNormal">@color/ripple_material_dark</item>
+
+        <!--   Color for ripple-effect on standard buttons -->
+        <item name="android:colorControlHighlight">@color/primary</item>
+
+        <item name="drawerArrowStyle">@style/AppTheme.DrawerArrowStyle</item>
+    </style>
+
+    <style name="AppTheme.DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="weatherTitle" parent="android:TextAppearance.Large">
+        <item name="android:fontFamily">times</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="weatherInfoText" parent="android:TextAppearance.Small">
+        <item name="android:fontFamily">times</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="weatherInfo" parent="android:TextAppearance.Small">
+        <item name="android:fontFamily">times</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+
+    <style name="dialogTitle" parent="android:TextAppearance.Small">
+        <item name="android:fontFamily">times</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="cityList" parent="android:TextAppearance.Small">
+        <item name="android:fontFamily">times</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+
+</resources>

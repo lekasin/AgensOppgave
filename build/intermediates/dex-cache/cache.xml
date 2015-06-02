@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/lars-erikkasin/AndroidStudioProjects/AgensOppgave/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/Users/lars-erikkasin/AndroidStudioProjects/AgensOppgave/app/build/intermediates/pre-dexed/debug/classes-74894a550f5800fe0a9470eeb6cd145998aebd50.jar" />
+    </item>
+    <item
+        jar="/Users/lars-erikkasin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/lars-erikkasin/AndroidStudioProjects/AgensOppgave/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-6d35ab5bde6dee0e2bc93a597ec22b37e542a658.jar" />
+    </item>
+    <item
+        jar="/Users/lars-erikkasin/.gradle/caches/modules-2/files-2.1/org.androidannotations/androidannotations-api/3.2/89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1/androidannotations-api-3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1">
+        <dex dex="/Users/lars-erikkasin/AndroidStudioProjects/AgensOppgave/app/build/intermediates/pre-dexed/debug/androidannotations-api-3.2-88367411e0efcce5b64e2ab1cc374ac9af55251f.jar" />
+    </item>
+    <item
+        jar="/Users/lars-erikkasin/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/lars-erikkasin/AndroidStudioProjects/AgensOppgave/app/build/intermediates/pre-dexed/debug/gson-2.3.1-ae930c282342bf3071623bc91a3337b647f17600.jar" />
+    </item>
+    <item
+        jar="/Users/lars-erikkasin/AndroidStudioProjects/AgensOppgave/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/lars-erikkasin/AndroidStudioProjects/AgensOppgave/app/build/intermediates/pre-dexed/debug/classes-364dcd7b6a20e322e0ce95435c93a96d4d4fc58b.jar" />
+    </item>
+    <item
+        jar="/Users/lars-erikkasin/AndroidStudioProjects/AgensOppgave/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/Users/lars-erikkasin/AndroidStudioProjects/AgensOppgave/app/build/intermediates/pre-dexed/debug/classes-3b122118ad6ac4c24c38bccacbe522f20e1a9d12.jar" />
+    </item>
+    <item
+        jar="/Users/lars-erikkasin/AndroidStudioProjects/AgensOppgave/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/lars-erikkasin/AndroidStudioProjects/AgensOppgave/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-27602a2b6ce8a3fa88a621ef2e1e386fbe3ae629.jar" />
+    </item>
+    <item
+        jar="/Users/lars-erikkasin/AndroidStudioProjects/AgensOppgave/app/build/intermediates/exploded-aar/jp.wasabeef/recyclerview-animators/1.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="55b967d31b15d92052a5ea2e407378b72d4764a7">
+        <dex dex="/Users/lars-erikkasin/AndroidStudioProjects/AgensOppgave/app/build/intermediates/pre-dexed/debug/classes-c39b5894b26ea3e5b4709729dd7481196a7063ad.jar" />
+    </item>
+    <item
+        jar="/Users/lars-erikkasin/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.16/d8f5b9114ebe0f76de7fbf55e950540959ce4ff8/library-1.0.16.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d8f5b9114ebe0f76de7fbf55e950540959ce4ff8">
+        <dex dex="/Users/lars-erikkasin/AndroidStudioProjects/AgensOppgave/app/build/intermediates/pre-dexed/debug/library-1.0.16-c20c455a9171856760139d67ab0fea7ae4fd58e1.jar" />
+    </item>
+    <item
+        jar="/Users/lars-erikkasin/AndroidStudioProjects/AgensOppgave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/lars-erikkasin/AndroidStudioProjects/AgensOppgave/app/build/intermediates/pre-dexed/debug/classes-39651cb665827c1e59d230010f88846445d39861.jar" />
+    </item>
+
+</items>

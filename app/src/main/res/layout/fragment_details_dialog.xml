@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/standard_margin"
+        android:layout_marginLeft="@dimen/standard_margin">
+
+        <TextView
+            android:id="@+id/dialogCityNameTv"
+            style="@style/weatherTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:transitionName="cityNameTrans"/>
+
+        <ImageView
+            android:id="@+id/iconIv"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/standard_margin"
+            android:src="@drawable/weather_default"
+            android:transitionName="imageTrans" />
+
+        <TextView
+            android:id="@+id/dialogMainDescTv"
+            style="@style/dialogTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialogCityNameTv"
+            android:layout_marginTop="@dimen/standard_margin"
+            android:layout_toRightOf="@id/iconIv" />
+
+        <TextView
+            android:id="@+id/dialogMaxTempTextTv"
+            style="@style/weatherInfoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/dialogMainDescTv"
+            android:layout_below="@id/dialogMainDescTv"
+            android:text="@string/warmest" />
+
+        <TextView
+            android:id="@+id/dialogMaxTempTv"
+            style="@style/weatherInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/dialogMaxTempTextTv"
+            android:layout_toRightOf="@id/dialogMaxTempTextTv" />
+
+        <TextView
+            android:id="@+id/dialogMinTempTextTv"
+            style="@style/weatherInfoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/dialogMainDescTv"
+            android:layout_below="@id/dialogMaxTempTextTv"
+            android:text="@string/coldest" />
+
+        <TextView
+            android:id="@+id/dialogMinTempTv"
+            style="@style/weatherInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/dialogMinTempTextTv"
+            android:layout_toRightOf="@id/dialogMinTempTextTv" />
+
+        <TextView
+            android:id="@+id/dialogWindTextTv"
+            style="@style/weatherInfoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/dialogMainDescTv"
+            android:layout_below="@id/dialogMinTempTextTv"
+            android:text="@string/wind" />
+
+        <TextView
+            android:id="@+id/dialogWindTv"
+            style="@style/weatherInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/dialogWindTextTv"
+            android:layout_toRightOf="@id/dialogWindTextTv" />
+
+        <TextView
+            android:id="@+id/dialogDateTv"
+            style="@style/dialogTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true" />
+
+        <Button
+            android:id="@+id/okBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Ok"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</LinearLayout>

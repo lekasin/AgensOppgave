@@ -1,0 +1,167 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="no.kasin.agensoppgave.Wea"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/standard_margin">
+
+        <RelativeLayout
+            android:id="@+id/currentInfoLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible">
+
+            <!-- CITYNAME -->
+
+            <TextView
+                android:id="@+id/cityNameTv"
+                style="@style/weatherTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:transitionName="cityNameTrans" />
+
+            <!-- MAIN -->
+            <TextView
+                android:id="@+id/mainDescTv"
+                style="@style/weatherTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true" />
+
+            <!-- CURRENTTEMP -->
+            <TextView
+                android:id="@+id/currentTempTv"
+                style="@style/weatherTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true" />
+
+            <!-- MAIN -->
+            <TextView
+                android:id="@+id/descTv"
+                style="@style/weatherInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true" />
+
+
+            <!-- MINTEMP -->
+
+            <TextView
+                android:id="@+id/minTempTv"
+                style="@style/weatherInfo"
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/currentTempTv"
+                android:text="@string/temp_placeholder" />
+
+            <TextView
+                android:id="@+id/minTextTv"
+                style="@style/weatherInfoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/minTempTv"
+                android:layout_toLeftOf="@id/minTempTv"
+                android:text="@string/min" />
+
+
+            <!-- MAXTEMP -->
+            <TextView
+                android:id="@+id/maxTempTv"
+                style="@style/weatherInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/minTempTv"
+                android:layout_below="@id/minTempTv"
+                android:text="@string/temp_placeholder" />
+
+            <TextView
+                android:id="@+id/maxTextTv"
+                style="@style/weatherInfoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/maxTempTv"
+                android:layout_toLeftOf="@id/maxTempTv"
+                android:text="@string/max" />
+
+            <!-- WIND-->
+            <TextView
+                android:id="@+id/windTv"
+                style="@style/weatherInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@id/maxTempTv"
+                android:text="@string/placeholder" />
+
+
+            <TextView
+                android:id="@+id/windTextTv"
+                style="@style/weatherInfoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/windTv"
+                android:layout_toLeftOf="@id/windTv"
+                android:text="@string/wind" />
+
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/iconIv"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerInParent="true"
+            android:clickable="false"
+            android:src="@drawable/weather_default"
+            android:tint="@color/white"
+            android:transitionName="imageTrans" />
+
+        <TextView
+            android:id="@+id/emptyStateTv"
+            style="@style/weatherInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/iconIv"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/empty_state"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/emptyStateReloadTv"
+            style="@style/weatherInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iconIv"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/empty_state_reload"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/failedSearchTv"
+            style="@style/weatherInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/iconIv"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/failed_search"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</FrameLayout>
